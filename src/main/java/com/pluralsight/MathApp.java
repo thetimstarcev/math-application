@@ -24,6 +24,10 @@ public class MathApp {
         double circleArea = Math.PI * Math.pow(radius, 2);
         System.out.println("The area of a circle is " + circleArea);
 
+        // Find and display the square root a variable after it is set to 5.0
+        double number = 5.0;
+        double squareRoot = Math.sqrt(number);
+        System.out.println("The square root of " + number + " is " + squareRoot);
 
 
 
