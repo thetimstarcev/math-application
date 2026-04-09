@@ -19,6 +19,12 @@ public class MathApp {
         int smallestPrice = Math.min(carPrice, truckPrice);
         System.out.println("The smallest price is " + smallestPrice);
 
+        // Find and display the area of a circle whose radius is 7.25
+        double radius = 7.25;
+        double circleArea = Math.PI * Math.pow(radius, 2);
+        System.out.println("The area of a circle is " + circleArea);
+
+
 
 
     }
